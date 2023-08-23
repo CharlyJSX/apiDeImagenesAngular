@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image'; 
 
 
 import { ComponenteComponent } from './componente/componente.component';
@@ -15,6 +16,7 @@ import { ComponenteComponent } from './componente/componente.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    LazyLoadImageModule,
     HttpClientModule
   ],
   providers: [],

@@ -4,7 +4,7 @@
         <h1>{{ item.name }}</h1>
         <p>{{ item.image }}</p>
         <div class="imgs">
-          <img [src]="img" alt="" *ngFor="let img of item.images">
+          <img [lazyLoad]="img" alt="" *ngFor="let img of item.images">
         </div>
       </div>
     </div>
